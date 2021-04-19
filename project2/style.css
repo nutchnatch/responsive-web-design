@@ -1,0 +1,251 @@
+
+html {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+}
+
+body {
+    /* background-image: linear-gradient(to right, red, yellow); */
+    /* background-image: linear-gradient(180deg, red, yellow); */
+    /* grabient.com */
+    /* dribbble.com */
+    /* behance.com */
+    
+    background-image: url(images/image-lion-background.png );
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30.3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+}
+
+.card3 {
+    min-height: 250px;
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-color: rgb(192, 31, 152);
+    width: 30.3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+}
+
+.card1, .card2, .card3 {
+    padding: 30px 30px;
+    box-sizing: border-box;
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.219);
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+}
+
+/* https://fonts.google.com/ */
+
+p {
+    line-height: 1.57rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 20px;
+}
+
+/* https://fontawesome.com/icons/motorcycle?style=solid */
+.cards i {
+    font-size: 100px;
+    /* color: blue; */
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.mybutton {
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 25px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.219);
+}
+
+a.mybutton {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.mybutton:hover {
+    background-color: rgb(107, 179, 107);
+    transition-duration: 1s;
+}
+
+nav a.mybutton {
+    margin-left: 30px;
+}
+
+.navbutton {
+    border-style: solid;
+    border-width: 1px;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+
+a.navbutton {
+    color: white;
+    text-decoration: none;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+/* https://css-tricks.com/pseudo-class-selectors/ */
+
+/* .tbox :last-child {
+    font-size: .8rem;
+} */
+
+.tbox :last-of-type {
+    font-size: .8rem;
+    padding-left: 30px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown .navbutton a {
+    color: #FA4083;
+}
+
+.inputwraper {
+    margin-top: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: .85rem;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 40px 0px;
+}
